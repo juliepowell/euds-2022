@@ -1,0 +1,1642 @@
+{
+  "charts": [
+    {
+      "version": "1.0.0",
+      "type": "chart",
+      "dataSource": {
+        "type": "featureLayer",
+        "featureLayer": {
+          "id": 0,
+          "layerType": "ArcGISFeatureLayer",
+          "featureCollection": {
+            "layers": [
+              {
+                "layerDefinition": {
+                  "currentVersion": 10.7,
+                  "id": 0,
+                  "name": "ChicagoCr",
+                  "type": "Feature Layer",
+                  "drawingInfo": {
+                    "renderer": {
+                      "type": "simple",
+                      "symbol": {
+                        "color": [77, 77, 77, 255],
+                        "size": 6,
+                        "angle": 0,
+                        "xoffset": 0,
+                        "yoffset": 0,
+                        "type": "esriSMS",
+                        "style": "esriSMSCircle",
+                        "outline": {
+                          "color": [255, 255, 255, 64],
+                          "width": 0.75,
+                          "type": "esriSLS",
+                          "style": "esriSLSSolid"
+                        }
+                      }
+                    },
+                    "fixedSymbols": true
+                  },
+                  "extent": {
+                    "xmin": -9774600.0001,
+                    "ymin": 5109706.9999,
+                    "xmax": -9747376.9999,
+                    "ymax": 5163410.0001,
+                    "spatialReference": {
+                      "wkid": 102100,
+                      "latestWkid": 3857
+                    }
+                  },
+                  "fields": [
+                    {
+                      "name": "FID",
+                      "type": "esriFieldTypeOID",
+                      "alias": "FID",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "ID",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "ID",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Case_Numbe",
+                      "type": "esriFieldTypeString",
+                      "alias": "Case_Numbe",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Date",
+                      "type": "esriFieldTypeDate",
+                      "alias": "Date",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "IUCR",
+                      "type": "esriFieldTypeString",
+                      "alias": "IUCR",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Primary_Ty",
+                      "type": "esriFieldTypeString",
+                      "alias": "Primary_Ty",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Descriptio",
+                      "type": "esriFieldTypeString",
+                      "alias": "Descriptio",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Location_D",
+                      "type": "esriFieldTypeString",
+                      "alias": "Location_D",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Arrest",
+                      "type": "esriFieldTypeString",
+                      "alias": "Arrest",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Beat",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Beat",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "District",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "District",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Ward",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Ward",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Community",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Community",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "FBI_Code",
+                      "type": "esriFieldTypeString",
+                      "alias": "FBI_Code",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "X_Coordina",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "X_Coordina",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Y_Coordina",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Y_Coordina",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Year",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Year",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Updated_On",
+                      "type": "esriFieldTypeString",
+                      "alias": "Updated_On",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Latitude",
+                      "type": "esriFieldTypeDouble",
+                      "alias": "Latitude",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Longitude",
+                      "type": "esriFieldTypeDouble",
+                      "alias": "Longitude",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "WeekDay",
+                      "type": "esriFieldTypeString",
+                      "alias": "WeekDay",
+                      "sqlType": "sqlTypeOther"
+                    }
+                  ]
+                },
+                "featureSet": {
+                  "features": [
+                    {
+                      "geometry": {
+                        "x": -9757785,
+                        "y": 5120250,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 0,
+                        "ID": 10101784,
+                        "Case_Numbe": "HY290547",
+                        "Date": 1433548800000,
+                        "IUCR": "520",
+                        "Primary_Ty": "ASSAULT",
+                        "Descriptio": "AGGRAVATED:KNIFE/CUTTING INSTR",
+                        "Location_D": "APARTMENT",
+                        "Arrest": "FALSE",
+                        "Beat": 2222,
+                        "District": 22,
+                        "Ward": 21,
+                        "Community": 73,
+                        "FBI_Code": "04A",
+                        "X_Coordina": 1169230,
+                        "Y_Coordina": 1844028,
+                        "Year": 2015,
+                        "Updated_On": "6/13/2015 12:39",
+                        "Latitude": 41.72752082,
+                        "Longitude": -87.6556764,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9759031,
+                        "y": 5143985,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 1,
+                        "ID": 10099676,
+                        "Case_Numbe": "HY288269",
+                        "Date": 1433376000000,
+                        "IUCR": "320",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "STRONGARM - NO WEAPON",
+                        "Location_D": "STREET",
+                        "Arrest": "FALSE",
+                        "Beat": 1215,
+                        "District": 12,
+                        "Ward": 27,
+                        "Community": 28,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1165727,
+                        "Y_Coordina": 1901917,
+                        "Year": 2015,
+                        "Updated_On": "6/11/2015 12:49",
+                        "Latitude": 41.88644987,
+                        "Longitude": -87.66686406,
+                        "WeekDay": "Thursday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9761323,
+                        "y": 5148048,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 2,
+                        "ID": 10073643,
+                        "Case_Numbe": "HY262239",
+                        "Date": 1431734400000,
+                        "IUCR": "041A",
+                        "Primary_Ty": "BATTERY",
+                        "Descriptio": "AGGRAVATED: HANDGUN",
+                        "Location_D": "GAS STATION",
+                        "Arrest": "FALSE",
+                        "Beat": 1434,
+                        "District": 14,
+                        "Ward": 1,
+                        "Community": 24,
+                        "FBI_Code": "04B",
+                        "X_Coordina": 1160046,
+                        "Y_Coordina": 1911773,
+                        "Year": 2015,
+                        "Updated_On": "5/23/2015 12:39",
+                        "Latitude": 41.91361472,
+                        "Longitude": -87.68745358,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9757540,
+                        "y": 5148736,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 3,
+                        "ID": 10064774,
+                        "Case_Numbe": "HY253087",
+                        "Date": 1431129600000,
+                        "IUCR": "313",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "ARMED: OTHER DANGEROUS WEAPON",
+                        "Location_D": "CTA TRAIN",
+                        "Arrest": "FALSE",
+                        "Beat": 1811,
+                        "District": 18,
+                        "Ward": 43,
+                        "Community": 7,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1169282,
+                        "Y_Coordina": 1913520,
+                        "Year": 2015,
+                        "Updated_On": "5/21/2015 13:30",
+                        "Latitude": 41.91821271,
+                        "Longitude": -87.65347161,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9774600,
+                        "y": 5163410,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 4,
+                        "ID": 10064420,
+                        "Case_Numbe": "HY252897",
+                        "Date": 1431129600000,
+                        "IUCR": "498",
+                        "Primary_Ty": "BATTERY",
+                        "Descriptio": "AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY",
+                        "Location_D": "APARTMENT",
+                        "Arrest": "TRUE",
+                        "Beat": 1611,
+                        "District": 16,
+                        "Ward": 41,
+                        "Community": 9,
+                        "FBI_Code": "04B",
+                        "X_Coordina": 1127352,
+                        "Y_Coordina": 1948941,
+                        "Year": 2015,
+                        "Updated_On": "5/21/2015 13:30",
+                        "Latitude": 42.01622056,
+                        "Longitude": -87.80672762,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9760635,
+                        "y": 5114788,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 5,
+                        "ID": 10040256,
+                        "Case_Numbe": "HY229982",
+                        "Date": 1429574400000,
+                        "IUCR": "320",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "STRONGARM - NO WEAPON",
+                        "Location_D": "STREET",
+                        "Arrest": "FALSE",
+                        "Beat": 2212,
+                        "District": 22,
+                        "Ward": 19,
+                        "Community": 75,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1162343,
+                        "Y_Coordina": 1830625,
+                        "Year": 2015,
+                        "Updated_On": "4/28/2015 12:45",
+                        "Latitude": 41.69088673,
+                        "Longitude": -87.68127646,
+                        "WeekDay": "Tuesday"
+                      }
+                    }
+                  ],
+                  "geometryType": "esriGeometryPoint"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "id": "Feature collection - Bar Chart - Multi-Series - split by field",
+      "background": [34, 34, 34, 255],
+      "title": {
+        "type": "chartText",
+        "visible": true,
+        "content": {
+          "type": "esriTS",
+          "color": [255, 255, 255, 255],
+          "text": "Feature collection - Bar Chart - multi-series - split-by field",
+          "font": {
+            "size": 20
+          }
+        }
+      },
+      "series": [
+        {
+          "type": "barSeries",
+          "id": "Assault",
+          "name": "Assault",
+          "query": {
+            "where": "Primary_Ty = 'ASSAULT'",
+            "groupByFieldsForStatistics": ["Year"],
+            "outStatistics": [
+              {
+                "onStatisticField": "Beat",
+                "statisticType": "sum",
+                "outStatisticFieldName": "fd97def572d1f40bc92605bff92e12d83"
+              }
+            ],
+            "orderByFields": ["Year ASC"]
+          },
+          "x": "Year",
+          "y": "fd97def572d1f40bc92605bff92e12d83",
+          "colorType": "singleColor",
+          "stackedType": "sideBySide",
+          "fillSymbol": {
+            "type": "esriSFS",
+            "outline": {
+              "type": "esriSLS",
+              "width": 1
+            }
+          },
+          "dataLabels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [116, 184, 223, 255]
+            }
+          }
+        },
+        {
+          "type": "barSeries",
+          "id": "Battery",
+          "name": "Battery",
+          "query": {
+            "where": "Primary_Ty = 'BATTERY'",
+            "groupByFieldsForStatistics": ["Year"],
+            "outStatistics": [
+              {
+                "onStatisticField": "Beat",
+                "statisticType": "sum",
+                "outStatisticFieldName": "f78742fea6afc48f7b16e55f0775e39db"
+              }
+            ],
+            "orderByFields": ["Year ASC"]
+          },
+          "x": "Year",
+          "y": "f78742fea6afc48f7b16e55f0775e39db",
+          "colorType": "singleColor",
+          "stackedType": "sideBySide",
+          "fillSymbol": {
+            "type": "esriSFS",
+            "outline": {
+              "type": "esriSLS",
+              "width": 1
+            }
+          },
+          "dataLabels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [106, 115, 225, 255]
+            }
+          }
+        },
+        {
+          "type": "barSeries",
+          "id": "Robbery",
+          "name": "Robbery",
+          "query": {
+            "where": "Primary_Ty = 'ROBBERY'",
+            "groupByFieldsForStatistics": ["Year"],
+            "outStatistics": [
+              {
+                "onStatisticField": "Beat",
+                "statisticType": "sum",
+                "outStatisticFieldName": "f9d9c177c514f4b5788c12fce11a82f58"
+              }
+            ],
+            "orderByFields": ["Year ASC"]
+          },
+          "x": "Year",
+          "y": "f9d9c177c514f4b5788c12fce11a82f58",
+          "colorType": "singleColor",
+          "stackedType": "sideBySide",
+          "fillSymbol": {
+            "type": "esriSFS",
+            "outline": {
+              "type": "esriSLS",
+              "width": 1
+            }
+          },
+          "dataLabels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [159, 105, 224, 255]
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "type": "chartAxis",
+          "title": {
+            "type": "chartText",
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255],
+              "text": "Year"
+            }
+          },
+          "labels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255]
+            }
+          },
+          "valueFormat": {
+            "type": "category",
+            "characterLimit": 4
+          },
+          "lineSymbol": {
+            "type": "esriSLS",
+            "color": [255, 255, 255, 255],
+            "width": 2
+          }
+        },
+        {
+          "type": "chartAxis",
+          "visible": true,
+          "title": {
+            "type": "chartText",
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255],
+              "text": "Count"
+            }
+          },
+          "labels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255]
+            }
+          },
+          "valueFormat": {
+            "type": "number",
+            "intlOptions": {
+              "style": "decimal",
+              "notation": "compact",
+              "minimumFractionDigits": 0,
+              "maximumFractionDigits": 1
+            }
+          },
+          "grid": {
+            "type": "esriSLS",
+            "color": [128, 128, 128, 200],
+            "width": 1
+          },
+          "lineSymbol": {
+            "type": "esriSLS",
+            "color": [255, 255, 255, 255],
+            "width": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "type": "chart",
+      "dataSource": {
+        "type": "featureLayer",
+        "featureLayer": {
+          "id": 0,
+          "layerType": "ArcGISFeatureLayer",
+          "featureCollection": {
+            "layers": [
+              {
+                "layerDefinition": {
+                  "currentVersion": 10.7,
+                  "id": 0,
+                  "name": "ChicagoCr",
+                  "type": "Feature Layer",
+                  "drawingInfo": {
+                    "renderer": {
+                      "type": "simple",
+                      "symbol": {
+                        "color": [77, 77, 77, 255],
+                        "size": 6,
+                        "angle": 0,
+                        "xoffset": 0,
+                        "yoffset": 0,
+                        "type": "esriSMS",
+                        "style": "esriSMSCircle",
+                        "outline": {
+                          "color": [255, 255, 255, 64],
+                          "width": 0.75,
+                          "type": "esriSLS",
+                          "style": "esriSLSSolid"
+                        }
+                      }
+                    },
+                    "fixedSymbols": true
+                  },
+                  "extent": {
+                    "xmin": -9774600.0001,
+                    "ymin": 5109706.9999,
+                    "xmax": -9747376.9999,
+                    "ymax": 5163410.0001,
+                    "spatialReference": {
+                      "wkid": 102100,
+                      "latestWkid": 3857
+                    }
+                  },
+                  "fields": [
+                    {
+                      "name": "FID",
+                      "type": "esriFieldTypeOID",
+                      "alias": "FID",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "ID",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "ID",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Case_Numbe",
+                      "type": "esriFieldTypeString",
+                      "alias": "Case_Numbe",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Date",
+                      "type": "esriFieldTypeDate",
+                      "alias": "Date",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "IUCR",
+                      "type": "esriFieldTypeString",
+                      "alias": "IUCR",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Primary_Ty",
+                      "type": "esriFieldTypeString",
+                      "alias": "Primary_Ty",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Descriptio",
+                      "type": "esriFieldTypeString",
+                      "alias": "Descriptio",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Location_D",
+                      "type": "esriFieldTypeString",
+                      "alias": "Location_D",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Arrest",
+                      "type": "esriFieldTypeString",
+                      "alias": "Arrest",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Beat",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Beat",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "District",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "District",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Ward",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Ward",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Community",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Community",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "FBI_Code",
+                      "type": "esriFieldTypeString",
+                      "alias": "FBI_Code",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "X_Coordina",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "X_Coordina",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Y_Coordina",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Y_Coordina",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Year",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Year",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Updated_On",
+                      "type": "esriFieldTypeString",
+                      "alias": "Updated_On",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Latitude",
+                      "type": "esriFieldTypeDouble",
+                      "alias": "Latitude",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Longitude",
+                      "type": "esriFieldTypeDouble",
+                      "alias": "Longitude",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "WeekDay",
+                      "type": "esriFieldTypeString",
+                      "alias": "WeekDay",
+                      "sqlType": "sqlTypeOther"
+                    }
+                  ]
+                },
+                "featureSet": {
+                  "features": [
+                    {
+                      "geometry": {
+                        "x": -9757785,
+                        "y": 5120250,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 0,
+                        "ID": 10101784,
+                        "Case_Numbe": "HY290547",
+                        "Date": 1433548800000,
+                        "IUCR": "520",
+                        "Primary_Ty": "ASSAULT",
+                        "Descriptio": "AGGRAVATED:KNIFE/CUTTING INSTR",
+                        "Location_D": "APARTMENT",
+                        "Arrest": "FALSE",
+                        "Beat": 2222,
+                        "District": 22,
+                        "Ward": 21,
+                        "Community": 73,
+                        "FBI_Code": "04A",
+                        "X_Coordina": 1169230,
+                        "Y_Coordina": 1844028,
+                        "Year": 2015,
+                        "Updated_On": "6/13/2015 12:39",
+                        "Latitude": 41.72752082,
+                        "Longitude": -87.6556764,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9759031,
+                        "y": 5143985,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 1,
+                        "ID": 10099676,
+                        "Case_Numbe": "HY288269",
+                        "Date": 1433376000000,
+                        "IUCR": "320",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "STRONGARM - NO WEAPON",
+                        "Location_D": "STREET",
+                        "Arrest": "FALSE",
+                        "Beat": 1215,
+                        "District": 12,
+                        "Ward": 27,
+                        "Community": 28,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1165727,
+                        "Y_Coordina": 1901917,
+                        "Year": 2015,
+                        "Updated_On": "6/11/2015 12:49",
+                        "Latitude": 41.88644987,
+                        "Longitude": -87.66686406,
+                        "WeekDay": "Thursday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9761323,
+                        "y": 5148048,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 2,
+                        "ID": 10073643,
+                        "Case_Numbe": "HY262239",
+                        "Date": 1431734400000,
+                        "IUCR": "041A",
+                        "Primary_Ty": "BATTERY",
+                        "Descriptio": "AGGRAVATED: HANDGUN",
+                        "Location_D": "GAS STATION",
+                        "Arrest": "FALSE",
+                        "Beat": 1434,
+                        "District": 14,
+                        "Ward": 1,
+                        "Community": 24,
+                        "FBI_Code": "04B",
+                        "X_Coordina": 1160046,
+                        "Y_Coordina": 1911773,
+                        "Year": 2015,
+                        "Updated_On": "5/23/2015 12:39",
+                        "Latitude": 41.91361472,
+                        "Longitude": -87.68745358,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9757540,
+                        "y": 5148736,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 3,
+                        "ID": 10064774,
+                        "Case_Numbe": "HY253087",
+                        "Date": 1431129600000,
+                        "IUCR": "313",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "ARMED: OTHER DANGEROUS WEAPON",
+                        "Location_D": "CTA TRAIN",
+                        "Arrest": "FALSE",
+                        "Beat": 1811,
+                        "District": 18,
+                        "Ward": 43,
+                        "Community": 7,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1169282,
+                        "Y_Coordina": 1913520,
+                        "Year": 2015,
+                        "Updated_On": "5/21/2015 13:30",
+                        "Latitude": 41.91821271,
+                        "Longitude": -87.65347161,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9774600,
+                        "y": 5163410,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 4,
+                        "ID": 10064420,
+                        "Case_Numbe": "HY252897",
+                        "Date": 1431129600000,
+                        "IUCR": "498",
+                        "Primary_Ty": "BATTERY",
+                        "Descriptio": "AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY",
+                        "Location_D": "APARTMENT",
+                        "Arrest": "TRUE",
+                        "Beat": 1611,
+                        "District": 16,
+                        "Ward": 41,
+                        "Community": 9,
+                        "FBI_Code": "04B",
+                        "X_Coordina": 1127352,
+                        "Y_Coordina": 1948941,
+                        "Year": 2015,
+                        "Updated_On": "5/21/2015 13:30",
+                        "Latitude": 42.01622056,
+                        "Longitude": -87.80672762,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9760635,
+                        "y": 5114788,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 5,
+                        "ID": 10040256,
+                        "Case_Numbe": "HY229982",
+                        "Date": 1429574400000,
+                        "IUCR": "320",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "STRONGARM - NO WEAPON",
+                        "Location_D": "STREET",
+                        "Arrest": "FALSE",
+                        "Beat": 2212,
+                        "District": 22,
+                        "Ward": 19,
+                        "Community": 75,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1162343,
+                        "Y_Coordina": 1830625,
+                        "Year": 2015,
+                        "Updated_On": "4/28/2015 12:45",
+                        "Latitude": 41.69088673,
+                        "Longitude": -87.68127646,
+                        "WeekDay": "Tuesday"
+                      }
+                    }
+                  ],
+                  "geometryType": "esriGeometryPoint"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "id": "FeatureCollection - Scatter Plot",
+      "background": [34, 34, 34, 255],
+      "title": {
+        "type": "chartText",
+        "visible": true,
+        "content": {
+          "type": "esriTS",
+          "color": [255, 255, 255, 255],
+          "text": "FeatureCollection - Relationship between Longitude and Latitude",
+          "font": {
+            "size": 20
+          }
+        }
+      },
+      "series": [
+        {
+          "type": "scatterSeries",
+          "id": "Series0",
+          "name": "Series0",
+          "x": "Longitude",
+          "y": "Latitude",
+          "colorType": "singleColor",
+          "markerSymbol": {
+            "type": "esriSMS",
+            "style": "esriSMSCircle",
+            "color": [255, 200, 0, 200],
+            "size": 10,
+            "outline": {
+              "type": "esriSLS",
+              "color": [255, 255, 255, 200],
+              "width": 1
+            }
+          },
+          "overlays": {
+            "type": "chartOverlays",
+            "trendLine": {
+              "type": "chartOverlay",
+              "created": true,
+              "visible": true,
+              "symbol": {
+                "type": "esriSLS",
+                "color": [0, 200, 255, 175],
+                "width": 4
+              }
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "type": "chartAxis",
+          "title": {
+            "type": "chartText",
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255],
+              "text": "Longitude"
+            }
+          },
+          "labels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255],
+              "font": {
+                "weight": "bold"
+              }
+            }
+          },
+          "valueFormat": {
+            "type": "number",
+            "intlOptions": {
+              "style": "decimal",
+              "notation": "standard",
+              "minimumFractionDigits": 2,
+              "maximumFractionDigits": 2
+            }
+          },
+          "lineSymbol": {
+            "type": "esriSLS",
+            "color": [255, 200, 0, 255],
+            "width": 2
+          }
+        },
+        {
+          "type": "chartAxis",
+          "visible": true,
+          "title": {
+            "type": "chartText",
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255],
+              "text": "Latitude"
+            }
+          },
+          "labels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [255, 255, 255, 255]
+            }
+          },
+          "valueFormat": {
+            "type": "number",
+            "intlOptions": {
+              "style": "decimal",
+              "notation": "standard",
+              "minimumFractionDigits": 2,
+              "maximumFractionDigits": 2
+            }
+          },
+          "lineSymbol": {
+            "type": "esriSLS",
+            "color": [255, 200, 0, 255],
+            "width": 2
+          }
+        }
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "type": "chart",
+      "dataSource": {
+        "type": "featureLayer",
+        "featureLayer": {
+          "id": 0,
+          "layerType": "ArcGISFeatureLayer",
+          "featureCollection": {
+            "layers": [
+              {
+                "layerDefinition": {
+                  "currentVersion": 10.7,
+                  "id": 0,
+                  "name": "ChicagoCr",
+                  "type": "Feature Layer",
+                  "drawingInfo": {
+                    "renderer": {
+                      "type": "simple",
+                      "symbol": {
+                        "color": [77, 77, 77, 255],
+                        "size": 6,
+                        "angle": 0,
+                        "xoffset": 0,
+                        "yoffset": 0,
+                        "type": "esriSMS",
+                        "style": "esriSMSCircle",
+                        "outline": {
+                          "color": [255, 255, 255, 64],
+                          "width": 0.75,
+                          "type": "esriSLS",
+                          "style": "esriSLSSolid"
+                        }
+                      }
+                    },
+                    "fixedSymbols": true
+                  },
+                  "extent": {
+                    "xmin": -9774600.0001,
+                    "ymin": 5109706.9999,
+                    "xmax": -9747376.9999,
+                    "ymax": 5163410.0001,
+                    "spatialReference": {
+                      "wkid": 102100,
+                      "latestWkid": 3857
+                    }
+                  },
+                  "fields": [
+                    {
+                      "name": "FID",
+                      "type": "esriFieldTypeOID",
+                      "alias": "FID",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "ID",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "ID",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Case_Numbe",
+                      "type": "esriFieldTypeString",
+                      "alias": "Case_Numbe",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Date",
+                      "type": "esriFieldTypeDate",
+                      "alias": "Date",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "IUCR",
+                      "type": "esriFieldTypeString",
+                      "alias": "IUCR",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Primary_Ty",
+                      "type": "esriFieldTypeString",
+                      "alias": "Primary_Ty",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Descriptio",
+                      "type": "esriFieldTypeString",
+                      "alias": "Descriptio",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Location_D",
+                      "type": "esriFieldTypeString",
+                      "alias": "Location_D",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Arrest",
+                      "type": "esriFieldTypeString",
+                      "alias": "Arrest",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Beat",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Beat",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "District",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "District",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Ward",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Ward",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Community",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Community",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "FBI_Code",
+                      "type": "esriFieldTypeString",
+                      "alias": "FBI_Code",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "X_Coordina",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "X_Coordina",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Y_Coordina",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Y_Coordina",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Year",
+                      "type": "esriFieldTypeInteger",
+                      "alias": "Year",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Updated_On",
+                      "type": "esriFieldTypeString",
+                      "alias": "Updated_On",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Latitude",
+                      "type": "esriFieldTypeDouble",
+                      "alias": "Latitude",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "Longitude",
+                      "type": "esriFieldTypeDouble",
+                      "alias": "Longitude",
+                      "sqlType": "sqlTypeOther"
+                    },
+                    {
+                      "name": "WeekDay",
+                      "type": "esriFieldTypeString",
+                      "alias": "WeekDay",
+                      "sqlType": "sqlTypeOther"
+                    }
+                  ]
+                },
+                "featureSet": {
+                  "features": [
+                    {
+                      "geometry": {
+                        "x": -9757785,
+                        "y": 5120250,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 0,
+                        "ID": 10101784,
+                        "Case_Numbe": "HY290547",
+                        "Date": 1433548800000,
+                        "IUCR": "520",
+                        "Primary_Ty": "ASSAULT",
+                        "Descriptio": "AGGRAVATED:KNIFE/CUTTING INSTR",
+                        "Location_D": "APARTMENT",
+                        "Arrest": "FALSE",
+                        "Beat": 2222,
+                        "District": 22,
+                        "Ward": 21,
+                        "Community": 73,
+                        "FBI_Code": "04A",
+                        "X_Coordina": 1169230,
+                        "Y_Coordina": 1844028,
+                        "Year": 2015,
+                        "Updated_On": "6/13/2015 12:39",
+                        "Latitude": 41.72752082,
+                        "Longitude": -87.6556764,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9759031,
+                        "y": 5143985,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 1,
+                        "ID": 10099676,
+                        "Case_Numbe": "HY288269",
+                        "Date": 1433376000000,
+                        "IUCR": "320",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "STRONGARM - NO WEAPON",
+                        "Location_D": "STREET",
+                        "Arrest": "FALSE",
+                        "Beat": 1215,
+                        "District": 12,
+                        "Ward": 27,
+                        "Community": 28,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1165727,
+                        "Y_Coordina": 1901917,
+                        "Year": 2015,
+                        "Updated_On": "6/11/2015 12:49",
+                        "Latitude": 41.88644987,
+                        "Longitude": -87.66686406,
+                        "WeekDay": "Thursday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9761323,
+                        "y": 5148048,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 2,
+                        "ID": 10073643,
+                        "Case_Numbe": "HY262239",
+                        "Date": 1431734400000,
+                        "IUCR": "041A",
+                        "Primary_Ty": "BATTERY",
+                        "Descriptio": "AGGRAVATED: HANDGUN",
+                        "Location_D": "GAS STATION",
+                        "Arrest": "FALSE",
+                        "Beat": 1434,
+                        "District": 14,
+                        "Ward": 1,
+                        "Community": 24,
+                        "FBI_Code": "04B",
+                        "X_Coordina": 1160046,
+                        "Y_Coordina": 1911773,
+                        "Year": 2015,
+                        "Updated_On": "5/23/2015 12:39",
+                        "Latitude": 41.91361472,
+                        "Longitude": -87.68745358,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9757540,
+                        "y": 5148736,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 3,
+                        "ID": 10064774,
+                        "Case_Numbe": "HY253087",
+                        "Date": 1431129600000,
+                        "IUCR": "313",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "ARMED: OTHER DANGEROUS WEAPON",
+                        "Location_D": "CTA TRAIN",
+                        "Arrest": "FALSE",
+                        "Beat": 1811,
+                        "District": 18,
+                        "Ward": 43,
+                        "Community": 7,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1169282,
+                        "Y_Coordina": 1913520,
+                        "Year": 2015,
+                        "Updated_On": "5/21/2015 13:30",
+                        "Latitude": 41.91821271,
+                        "Longitude": -87.65347161,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9774600,
+                        "y": 5163410,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 4,
+                        "ID": 10064420,
+                        "Case_Numbe": "HY252897",
+                        "Date": 1431129600000,
+                        "IUCR": "498",
+                        "Primary_Ty": "BATTERY",
+                        "Descriptio": "AGGRAVATED DOMESTIC BATTERY: HANDS/FIST/FEET SERIOUS INJURY",
+                        "Location_D": "APARTMENT",
+                        "Arrest": "TRUE",
+                        "Beat": 1611,
+                        "District": 16,
+                        "Ward": 41,
+                        "Community": 9,
+                        "FBI_Code": "04B",
+                        "X_Coordina": 1127352,
+                        "Y_Coordina": 1948941,
+                        "Year": 2015,
+                        "Updated_On": "5/21/2015 13:30",
+                        "Latitude": 42.01622056,
+                        "Longitude": -87.80672762,
+                        "WeekDay": "Saturday"
+                      }
+                    },
+                    {
+                      "geometry": {
+                        "x": -9760635,
+                        "y": 5114788,
+                        "spatialReference": {
+                          "wkid": 102100,
+                          "latestWkid": 3857
+                        }
+                      },
+                      "attributes": {
+                        "FID": 5,
+                        "ID": 10040256,
+                        "Case_Numbe": "HY229982",
+                        "Date": 1429574400000,
+                        "IUCR": "320",
+                        "Primary_Ty": "ROBBERY",
+                        "Descriptio": "STRONGARM - NO WEAPON",
+                        "Location_D": "STREET",
+                        "Arrest": "FALSE",
+                        "Beat": 2212,
+                        "District": 22,
+                        "Ward": 19,
+                        "Community": 75,
+                        "FBI_Code": "3",
+                        "X_Coordina": 1162343,
+                        "Y_Coordina": 1830625,
+                        "Year": 2015,
+                        "Updated_On": "4/28/2015 12:45",
+                        "Latitude": 41.69088673,
+                        "Longitude": -87.68127646,
+                        "WeekDay": "Tuesday"
+                      }
+                    }
+                  ],
+                  "geometryType": "esriGeometryPoint"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "id": "FeatureCollection - Histogram",
+      "title": {
+        "type": "chartText",
+        "visible": true,
+        "content": {
+          "type": "esriTS",
+          "color": [1, 0, 0, 255],
+          "text": "FeatureCollection - Distribution of Beat",
+          "font": {
+            "size": 20
+          }
+        }
+      },
+      "series": [
+        {
+          "type": "histogramSeries",
+          "id": "Beat",
+          "name": "Beat",
+          "x": "Beat",
+          "colorType": "singleColor",
+          "binCount": 12,
+          "dataTransformationType": "none",
+          "fillSymbol": {
+            "type": "esriSFS",
+            "color": [200, 200, 50, 200],
+            "outline": {
+              "type": "esriSLS",
+              "color": [150, 150, 0, 200],
+              "width": 1
+            }
+          },
+          "overlays": {
+            "type": "chartOverlays",
+            "mean": {
+              "type": "chartOverlay",
+              "created": true,
+              "visible": true,
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSDot",
+                "color": [227, 36, 0, 255],
+                "width": 3
+              }
+            },
+            "median": {
+              "type": "chartOverlay",
+              "created": true,
+              "visible": true,
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSDot",
+                "color": [144, 66, 159, 255],
+                "width": 3
+              }
+            },
+            "standardDeviation": {
+              "type": "chartOverlay",
+              "created": true,
+              "visible": true,
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSDot",
+                "color": [10, 10, 200, 255],
+                "width": 3
+              }
+            },
+            "comparisonDistribution": {
+              "type": "chartOverlay",
+              "created": true,
+              "visible": true,
+              "symbol": {
+                "type": "esriSLS",
+                "color": [255, 50, 255, 255],
+                "width": 3
+              }
+            }
+          },
+          "dataLabels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [200, 50, 255, 255],
+              "font": {
+                "size": 16
+              }
+            }
+          }
+        }
+      ],
+      "axes": [
+        {
+          "type": "chartAxis",
+          "title": {
+            "type": "chartText",
+            "content": {
+              "type": "esriTS",
+              "color": [0, 0, 0, 255],
+              "text": "Beat"
+            }
+          },
+          "labels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [0, 0, 0, 255],
+              "font": {
+                "size": 12
+              }
+            }
+          },
+          "valueFormat": {
+            "type": "number",
+            "intlOptions": {
+              "style": "decimal",
+              "notation": "standard",
+              "minimumFractionDigits": 2,
+              "maximumFractionDigits": 2
+            }
+          },
+          "lineSymbol": {
+            "type": "esriSLS",
+            "color": [150, 150, 0, 255],
+            "width": 2
+          }
+        },
+        {
+          "type": "chartAxis",
+          "visible": true,
+          "title": {
+            "type": "chartText",
+            "content": {
+              "type": "esriTS",
+              "color": [0, 0, 0, 255],
+              "text": "Count"
+            }
+          },
+          "labels": {
+            "type": "chartText",
+            "visible": true,
+            "content": {
+              "type": "esriTS",
+              "color": [0, 0, 0, 255],
+              "font": {
+                "size": 12
+              }
+            }
+          },
+          "valueFormat": {
+            "type": "number",
+            "intlOptions": {
+              "style": "decimal",
+              "notation": "standard",
+              "minimumFractionDigits": 2,
+              "maximumFractionDigits": 2
+            }
+          },
+          "grid": {
+            "type": "esriSLS",
+            "color": [200, 200, 50, 150],
+            "width": 1
+          },
+          "lineSymbol": {
+            "type": "esriSLS",
+            "color": [150, 150, 0, 255],
+            "width": 2
+          }
+        }
+      ]
+    }
+  ]
+}
