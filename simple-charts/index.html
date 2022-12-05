@@ -68,9 +68,10 @@
     </style>
 
 <body>
+    
     <calcite-loader active></calcite-loader>
     <calcite-shell content-behind hidden>
-        <instant-apps-header slot="header" title-text="Web Components Are Fun"
+        <instant-apps-header slot="header" title-text="Airbnbs in Berlin"
             logo-image="./assets/graph-moving-average-24.svg" logo-image-alt-text="Charting demo"
             logo-link="https://www.esri.com/en-us/arcgis/products/arcgis-instant-apps/overview">
             <instant-apps-social-share slot="actions-end" popover-button-icon-scale="s"></instant-apps-social-share>
@@ -92,7 +93,7 @@
                 <div id="chartConfig-container"></div>
             </calcite-panel>
 
-            
+
             <!-- Info panel (populates with info from the web map) -->
             <calcite-panel heading="Details" data-panel-id="information" hidden>
                 <div class="panel-content" id="info-content">
@@ -109,10 +110,12 @@
                 </div>
             </calcite-panel>
         </calcite-shell-panel>
-        <div id="viewDiv"></div>
-        <calcite-shell-center-row slot="center-row">
-            <arcgis-charts-bar-chart id="barchart_chart"></arcgis-charts-bar-chart>
+        <calcite-shell-center-row detached slot="center-row">
+            <calcite-panel heading="Comparison of Beat sum by Year" style="border:1px solid var(--calcite-ui-border-3)">
+                <arcgis-charts-bar-chart id="barchart_chart"></arcgis-charts-bar-chart>
+            </calcite-panel>
         </calcite-shell-center-row>
+        <div id="viewDiv"></div>
     </calcite-shell>
 </body>
 <script>
@@ -125,7 +128,7 @@
     ], function (WebMap, MapView, FeatureLayer, Legend, watchUtils) {
         const map = new WebMap({
             portalItem: {
-                id: '89cd0f1a793d4304a5581d4801b83eb1',
+                id: '811d14fcbc5a4c97bd9b0ad0d7e2c788',
             },
         });
 
