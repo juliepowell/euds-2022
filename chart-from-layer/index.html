@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no" />
-    <title>Web Components Demo</title>
+    <title>Airbnbs in Berlin</title>
 
-    <link rel="stylesheet" href="https://js.arcgis.com/4.24/esri/themes/light/main.css" />
-    <script src="https://js.arcgis.com/4.24/"></script>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.25/esri/themes/light/main.css" />
+    <script src="https://js.arcgis.com/4.25/"></script>
 
     <script type="module"
         src="https://unpkg.com/@esri/calcite-components@1.0.0-beta.95/dist/calcite/calcite.esm.js"></script>
@@ -70,7 +70,7 @@
 <body>
     <calcite-loader active></calcite-loader>
     <calcite-shell content-behind hidden>
-        <instant-apps-header slot="header" title-text="Web Components Are Fun"
+        <instant-apps-header slot="header" title-text="Airbnbs in Berlin"
             logo-image="./assets/graph-moving-average-24.svg" logo-image-alt-text="Charting demo"
             logo-link="https://www.esri.com/en-us/arcgis/products/arcgis-instant-apps/overview">
             <instant-apps-social-share slot="actions-end" popover-button-icon-scale="s"></instant-apps-social-share>
@@ -125,16 +125,6 @@
         "esri/widgets/Legend",
         "esri/core/reactiveUtils"
     ], function (WebMap, MapView, FeatureLayer, Legend, reactiveUtils) {
-        /*const featureLayer = new FeatureLayer({
-            portalItem: {
-                id: "f87a830257a845648620d3753e4b30a8"
-            }
-        });
-        
-        const map = new WebMap({
-            basemap: "topo-vector",
-            layers: [featureLayer]
-        }); */
 
         let featureLayer;
 
